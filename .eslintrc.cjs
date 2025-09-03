@@ -22,14 +22,12 @@ module.exports = {
     react: {
       version: 'detect',
     },
-    'react-native': {
-      components: ['ThemedText'],
-    },
   },
   rules: {
     'react/react-in-jsx-scope': 'off',
     '@typescript-eslint/no-explicit-any': 'error',
     'react-native/no-raw-text': 'off',
     'react-native/sort-styles': 'off',
+    'react-native/no-color-literals': 'off',
   },
 };

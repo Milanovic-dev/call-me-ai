@@ -1,24 +1,12 @@
-# call-me-ai
+# Call Me AI
 
-## Prerequisites
-
-- Node.js
-- npm
-- Expo CLI (`npx expo`)
-
-## Setup
-
-```bash
-npm install
-```
+Frontend-only React Native app (Expo + TypeScript) for scheduling simulated calls with custom characters.
 
 ## Run
 
 ```bash
+npm install
 npm start
-npm run android
-npm run ios
-npm run web
 ```
 
 ## Lint & Format
@@ -27,3 +15,7 @@ npm run web
 npm run lint
 npm run format
 ```
+
+## Where GPT Realtime API Will Integrate
+
+The `CallScreen` component (`src/screens/CallScreen.tsx`) is the placeholder where a future GPT Realtime API will connect to handle live audio/video calls.
