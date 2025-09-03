@@ -1,0 +1,23 @@
+{
+  "expo": {
+    "name": "call-me-ai",
+    "slug": "call-me-ai",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.example.callmeai"
+    },
+    "android": {
+      "edgeToEdgeEnabled": true,
+      "package": "com.example.callmeai"
+    },
+    "web": {}
+  }
+}
